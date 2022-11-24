@@ -1,3 +1,12 @@
+/*this code needs some work 
+-media queries
+-readd margins
+-fix margin and stuff
+-maybe put a backshadow
+-explain everything in comments
+-incorporate some of the lessons
+-made picture a little smaller
+from this week */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -205,3 +214,27 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+@media screen and (max-width: 576px) {
+    main {
+      background-color: hotpink;
+      justify-content:space-between;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    nav {
+      background-color: darkmagenta;
+    }
+  }
+
+
+
+/*I originally deleted all of the stuff in the margins to
+try to fix an error I was getting before where the second
+column wouldn't go in line wih the first one, but then I
+put it back
+
+/*There was an error when the screen got too small that made the 
+words stack in a weird way that didn't look good. I also
+changed the background color of the boxes just for fun */
