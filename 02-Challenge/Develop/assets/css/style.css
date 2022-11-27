@@ -1,4 +1,4 @@
-/* Homework */
+/* HOMEWORK-1 */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -60,7 +60,7 @@ the benefits with services*/
     margin-bottom: 25px;
 }
 
-/* Not really sure what this code does tbh 
+/*Not really sure what this code does tbh 
 When I comment it out it just makes the words
 look all weird*/
 
@@ -73,7 +73,8 @@ look all weird*/
     float: right;
     margin-left: 25px;
 }
-/* MAIN CONTENT*/
+
+/* MAIN CONTENT */
 
 .content {
     width: 75%;
@@ -89,6 +90,9 @@ look all weird*/
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/*For some reason when I put these all in one class
+selector it messes up the code*/
 
 .search-engine-optimization,
 .online-reputation-management,
@@ -150,4 +154,4 @@ look all weird*/
 
 /*I can't figure out how to make it look good
 on a different browser. I'll come back to this
-later */
+later*/
