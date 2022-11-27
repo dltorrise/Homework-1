@@ -1,6 +1,4 @@
-/*Honestly everything looks really good,
-I just want to clean up the code a little bit
-and then add media queries */
+/* Homework */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -27,7 +25,6 @@ body {
     color: #d9dcd6;
 }
 
-/*it seems like this code doesn't even do anything*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -55,16 +52,17 @@ p {
     font-size: 16px;
 }
 
+/*For some reason this makes a huge difference 
+in the layout of the page and centering
+the benefits with services*/ 
 
 .image-margin {
     margin-bottom: 25px;
 }
 
-/*For some reason this makes a huge difference 
-in the layout of the page and centering
-the benefits with services*/ 
-
-/* Not really sure what this code does tbh */
+/* Not really sure what this code does tbh 
+When I comment it out it just makes the words
+look all weird*/
 
 .float-left {
     float: left;
@@ -75,8 +73,7 @@ the benefits with services*/
     float: right;
     margin-left: 25px;
 }
-
-/* MAIN */
+/* MAIN CONTENT*/
 
 .content {
     width: 75%;
@@ -84,11 +81,26 @@ the benefits with services*/
     display: inline-block;
 }
 
+.content img {
+    max-height: 200px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
     border-radius: 30px;
     box-shadow: 12px 12px 2px 1px #2a607c;
+    margin-bottom: 20px; 
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
 /* BENEFITS */
@@ -117,70 +129,10 @@ the benefits with services*/
     text-align: center;
 }
 
-/*I guess you don't ever want to repeat code, if you a bunch
-of selectors look the same you should make a class just so it's
-less complication */
-
-/*I need to clean up this code a little bit */
-
 .benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.search-engine-optimization {
-    margin-bottom: 20px; 
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /* FOOTER */
@@ -196,10 +148,6 @@ less complication */
     font-size: 20px;
 }
 
-/*At this point all I have to do is the 
-media queries and also I kind of want to 
-round the edges with border-radius */
-
-/*There was an error when the screen got too small that made the 
-words stack in a weird way that didn't look good. I also
-changed the background color of the boxes just for fun */
+/*I can't figure out how to make it look good
+on a different browser. I'll come back to this
+later */
