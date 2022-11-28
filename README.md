@@ -12,6 +12,6 @@ This is the improved website for Horiseon Marketing Agency. Some changes I made:
 
 ## Link and Screenshot
 
-You can access the improved website [here](https://www.example.com)
+You can access the improved website [here](https://dltorrise.github.io/Homework-1/)
 
 A screenshot of the improved website 	![alt text](image.jpg)
