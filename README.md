@@ -14,4 +14,4 @@ This is the improved website for Horiseon Marketing Agency. Some changes I made:
 
 You can access the improved website [here](https://dltorrise.github.io/Homework-1/)
 
-A screenshot of the improved website 	![Screenshot](Screenshot of Horiseon Website.png)
+A screenshot of the improved website 	![Screenshot](./Assets/images/Horiseon-Screenshot.png)
