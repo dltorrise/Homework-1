@@ -25,7 +25,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header article {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -34,11 +34,11 @@ body {
 }
 
 
-.header div ul {
+.header article ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header article ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -141,14 +141,14 @@ selector it messes up the code*/
 
 /* FOOTER */
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
 
